@@ -20,7 +20,9 @@ https://clawhub.ai/jiehao71727/apidot-ai-api
 clawhub install apidot-ai-api
 ```
 
-The skill is designed as documentation-only in v1. It does not include scripts, hidden automation, or bundled API clients. For runnable API examples, use the official examples repository.
+If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
+
+This first release is intentionally lightweight. It does not include scripts, hidden automation, or bundled API clients. For runnable API examples, use the official examples repository.
 
 ## Official APIDot Links
 

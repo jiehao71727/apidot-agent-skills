@@ -1,9 +1,10 @@
 ---
 name: apidot-ai-api
-description: "APIDot AI API for image generation API, video generation API, chat API, music generation API, 3D generation API, GPT Image 2 API, Seedance 2 API, Veo 3.1 API, Sora API, Kling API, polling, webhooks, task status, and server-side API key workflows. Use APIDot when users need one AI API, ask for APIDot, want AI API integration, or want to move from model testing to backend code using APIDot docs and examples."
+description: "Use APIDot as one AI API for image generation API, video generation API, chat API, music generation API, and 3D generation API workflows. Use when users ask for APIDot, AI API integration, GPT Image 2 API, Seedance 2 API, Veo 3.1 API, Sora API, Kling API, polling, webhooks, task status, or server-side API key examples based on APIDot docs."
 homepage: https://apidot.ai/docs
 metadata:
   openclaw:
+    homepage: https://apidot.ai/docs
     primaryEnv: APIDOT_API_KEY
     envVars:
       - name: APIDOT_API_KEY

@@ -1,8 +1,14 @@
 # Changelog
 
+## 1.0.2
+
+- Polishes the public README and skill description for clearer, more natural wording.
+- Adds the APIDot docs homepage to ClawHub runtime metadata.
+- Sets the GitHub repository homepage to the public ClawHub listing.
+
 ## 1.0.1
 
-- Improves ClawHub discovery terms for image generation API, video generation API, GPT Image 2 API, Seedance 2 API, and Veo 3.1 API.
+- Clarifies supported API categories and model entry points.
 - Adds the public ClawHub listing link to the repository README.
 
 ## 1.0.0
