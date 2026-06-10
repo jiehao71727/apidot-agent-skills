@@ -12,7 +12,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 
 ## Install
 
-After the first ClawHub release is live:
+ClawHub listing:
+
+https://clawhub.ai/jiehao71727/apidot-ai-api
 
 ```bash
 clawhub install apidot-ai-api
