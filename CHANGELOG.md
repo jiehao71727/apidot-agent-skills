@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0
+
+- Adds `apidot-video-generation-api` as a video-focused ClawHub skill.
+- Clarifies APIDot video generation routing for text-to-video, image-to-video, polling, webhooks, Veo 3.1, Seedance, Sora, and Kling workflows.
+- Updates the repository README with the second ClawHub listing and install command.
+
 ## 1.0.2
 
 - Polishes the public README and skill description for clearer, more natural wording.

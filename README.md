@@ -9,20 +9,24 @@ APIDot gives developers one API key for image generation, video generation, chat
 | Skill | Purpose |
 | --- | --- |
 | `apidot-ai-api` | Use APIDot as one AI API for image, video, chat, music, and 3D generation workflows. |
+| `apidot-video-generation-api` | Use APIDot for video generation API workflows, including text-to-video, image-to-video, polling, and webhooks. |
 
 ## Install
 
-ClawHub listing:
+ClawHub listings:
 
 https://clawhub.ai/jiehao71727/apidot-ai-api
 
+https://clawhub.ai/jiehao71727/apidot-video-generation-api
+
 ```bash
 clawhub install apidot-ai-api
+clawhub install apidot-video-generation-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
 
-This first release is intentionally lightweight. It does not include scripts, hidden automation, or bundled API clients. For runnable API examples, use the official examples repository.
+These skills are intentionally lightweight. They do not include scripts, hidden automation, or bundled API clients. For runnable API examples, use the official examples repository.
 
 ## Official APIDot Links
 
@@ -39,6 +43,8 @@ This first release is intentionally lightweight. It does not include scripts, hi
 ```text
 skills/
   apidot-ai-api/
+    SKILL.md
+  apidot-video-generation-api/
     SKILL.md
 docs/
   publishing.md

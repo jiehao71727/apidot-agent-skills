@@ -26,6 +26,7 @@ Before publishing any ClawHub version:
 - Confirm APIDot links resolve.
 - Confirm the skill does not hard-code prices, discounts, uptime, benchmark, refund, or competitor-comparison claims.
 - Confirm `description` includes the important discovery terms.
+- Confirm category skills link to model-specific repositories instead of duplicating high-maintenance pricing or comparison content.
 - Run `clawhub sync --dry-run --owner jiehao71727`.
 
 ## Content Rules
