@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0
+
+- Adds `apidot-image-generation-api` as an image-focused ClawHub skill.
+- Clarifies APIDot image generation routing for text-to-image, image editing, image-to-image, polling, webhooks, GPT Image 2, Nano Banana, Seedream, and Flux workflows.
+- Updates the repository README with the third ClawHub listing and install command.
+
 ## 1.1.0
 
 - Adds `apidot-video-generation-api` as a video-focused ClawHub skill.
