@@ -27,7 +27,25 @@ Before publishing any ClawHub version:
 - Confirm the skill does not hard-code prices, discounts, uptime, benchmark, refund, or competitor-comparison claims.
 - Confirm `description` includes the important discovery terms.
 - Confirm category skills link to model-specific repositories instead of duplicating high-maintenance pricing or comparison content.
+- Confirm docs-only skills avoid inline executable API request examples. Prefer workflow guidance plus links to official docs and GitHub examples.
 - Run `clawhub sync --dry-run --owner jiehao71727`.
+
+## ClawHub Security Scan Notes
+
+On 2026-06-16, `apidot-ai-api` and `apidot-video-generation-api` moved from Review to Pass after reducing scan-triggering content.
+
+What triggered Review risk:
+
+- Inline shell request examples in a Skill, especially API-key setup, bearer authorization, and direct external API requests.
+- Wording that made a docs-only Skill look like it might perform live API calls or include automation.
+- Generated ClawHub security summaries can be conservative or imperfect, so avoid terms and examples that look executable unless the Skill truly needs them.
+
+What worked:
+
+- Keep ClawHub Skills documentation-only unless there is a deliberate reason to ship scripts.
+- State clearly that the release contains only `SKILL.md` and has no executable files, install-time automation, bundled API clients, automatic network calls, or stored credentials.
+- Replace inline runnable request examples with stable workflow steps and links to current APIDot docs or model-specific GitHub example repositories.
+- Do not keep republishing small scan-only edits after a clean moderation result. If a Skill remains Review but is clean, treat it as scanner conservatism unless there is a clear actionable finding.
 
 ## Content Rules
 
