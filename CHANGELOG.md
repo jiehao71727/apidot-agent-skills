@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0
+
+- Adds `apidot-async-workflow` as an async task, polling, task status, and webhook-focused ClawHub skill.
+- Clarifies APIDot workflow guidance for `task_id` persistence, callback URLs, idempotent webhook handling, retries, and result reconciliation.
+- Updates the repository README with the fourth ClawHub listing and install command.
+
 ## 1.2.1
 
 - Reduces executable-example surface in `apidot-ai-api` by replacing inline shell request examples with workflow guidance and official links.
