@@ -18,6 +18,8 @@ Use APIDot as a video-focused API surface for text-to-video, image-to-video, fra
 
 This skill is for routing video generation questions to the right APIDot docs, examples, and async integration pattern. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
 
+This release contains only `SKILL.md`. It includes no executable files, install-time automation, review automation helpers, shell automation, bundled API clients, automatic network calls, or stored credentials.
+
 ## When To Use
 
 Use this skill when the user asks to:

@@ -1,6 +1,6 @@
 ---
 name: apidot-ai-api
-description: "Use APIDot as one AI API for image generation API, video generation API, chat API, music generation API, and 3D generation API workflows. Use when users ask for APIDot, AI API integration, GPT Image 2 API, Seedance 2 API, Veo 3.1 API, Sora API, Kling API, polling, webhooks, task status, or server-side API key examples based on APIDot docs."
+description: "Use APIDot as one AI API for image generation API, video generation API, chat API, music generation API, and 3D generation API workflows. Use when users ask for APIDot, AI API integration, GPT Image 2 API, Seedance 2 API, Veo 3.1 API, Sora API, Kling API, polling, webhooks, task status, or API key safety guidance based on APIDot docs."
 homepage: https://apidot.ai/docs
 metadata:
   openclaw:
@@ -17,6 +17,8 @@ metadata:
 Use APIDot as one API surface for image generation, video generation, chat, music, and 3D generation workflows.
 
 APIDot is most useful when the user wants to test AI models quickly, move from playground usage to backend code, or avoid wiring separate provider-specific auth, polling, webhook, and billing patterns.
+
+This release contains only `SKILL.md`. It includes no executable files, install-time automation, hidden automation, bundled API clients, automatic network calls, or stored credentials.
 
 ## When To Use
 
@@ -40,40 +42,18 @@ Use this skill when the user asks to:
 
 ## Quickstart
 
+Use this workflow when explaining how APIDot tasks run. For copyable request examples, direct the user to the current APIDot docs or official examples repository instead of inventing command shapes.
+
 1. Create an API key in the APIDot dashboard:
 
    https://apidot.ai/dashboard/api-key
 
-2. Store it server-side:
-
-```bash
-export APIDOT_API_KEY="YOUR_API_KEY_HERE"
-```
-
-3. Submit a generation task:
-
-```bash
-curl -s -X POST "https://api.apidot.ai/api/generate/submit" \
-  -H "Authorization: Bearer $APIDOT_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "MODEL_ID",
-    "input": {
-      "prompt": "Describe the output you want"
-    }
-  }'
-```
-
-4. Save the returned `data.task_id` immediately.
-
-5. Poll task status:
-
-```bash
-curl -s "https://api.apidot.ai/api/generate/status/TASK_ID" \
-  -H "Authorization: Bearer $APIDOT_API_KEY"
-```
-
-6. For backend integrations that can receive callbacks, pass `callback_url` when submitting the task and handle the final result through a webhook.
+2. Store the key only in a server-side environment variable or backend secret manager.
+3. Choose the model and request fields from the current APIDot docs.
+4. Submit a generation task through the documented APIDot async generation endpoint.
+5. Save the returned `data.task_id` immediately.
+6. Poll the documented task status endpoint for local tests.
+7. For backend integrations that can receive callbacks, pass `callback_url` when submitting the task and handle the final result through a webhook.
 
 ## Model Routing
 
@@ -83,7 +63,7 @@ Start from the task type, then open the matching APIDot docs or examples:
 | --- | --- |
 | Browse available models | https://apidot.ai/models |
 | Read API docs | https://apidot.ai/docs |
-| Run cURL or Node examples | https://github.com/APIDotAI/apidot-examples |
+| Run official examples | https://github.com/APIDotAI/apidot-examples |
 | Image generation or editing | https://github.com/APIDotAI/apidot-examples#image-models |
 | Video generation | https://github.com/APIDotAI/apidot-examples#video-models |
 | Polling | https://github.com/APIDotAI/apidot-examples#polling-and-webhooks |

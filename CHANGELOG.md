@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1
+
+- Reduces executable-example surface in `apidot-ai-api` by replacing inline shell request examples with workflow guidance and official links.
+- Adds stronger documentation-only safety language to `apidot-ai-api` and `apidot-video-generation-api`.
+- Keeps `apidot-image-generation-api` unchanged because it already passes ClawHub security scanning.
+
 ## 1.2.0
 
 - Adds `apidot-image-generation-api` as an image-focused ClawHub skill.
