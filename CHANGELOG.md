@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0
+
+- Adds `apidot-3d-generation-api` as a 3D-focused ClawHub skill.
+- Clarifies APIDot 3D workflow routing for text-to-3D, image-to-3D, multi-image-to-3D, polling, webhooks, Meshy 6, Tripo H3.1, and Tripo P1 workflows.
+- Updates the repository README with the fifth ClawHub listing and install command.
+
 ## 1.3.0
 
 - Adds `apidot-async-workflow` as an async task, polling, task status, and webhook-focused ClawHub skill.
