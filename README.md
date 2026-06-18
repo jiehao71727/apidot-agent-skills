@@ -13,6 +13,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-image-generation-api` | Use APIDot for image generation and image editing API workflows, including text-to-image, image-to-image, polling, and webhooks. |
 | `apidot-async-workflow` | Use APIDot async task workflow guidance for task submission, task status, polling, callback URLs, and webhooks. |
 | `apidot-3d-generation-api` | Use APIDot for 3D generation API workflows, including text-to-3D, image-to-3D, polling, and webhooks. |
+| `apidot-music-generation-api` | Use APIDot for music generation API workflows, including text-to-music, song generation, polling, and webhooks. |
+| `apidot-veo-3-1-api` | Use APIDot for Veo 3.1 API workflows, including text-to-video, image-to-video, polling, and webhooks. |
+| `apidot-seedance-2-api` | Use APIDot for Seedance 2 API workflows, including text-to-video, image-to-video, native audio, polling, and webhooks. |
 
 ## Install
 
@@ -28,12 +31,21 @@ https://clawhub.ai/jiehao71727/apidot-async-workflow
 
 https://clawhub.ai/jiehao71727/apidot-3d-generation-api
 
-```bash
+https://clawhub.ai/jiehao71727/apidot-music-generation-api
+
+https://clawhub.ai/jiehao71727/apidot-veo-3-1-api
+
+https://clawhub.ai/jiehao71727/apidot-seedance-2-api
+
+```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
 clawhub install apidot-image-generation-api
 clawhub install apidot-async-workflow
 clawhub install apidot-3d-generation-api
+clawhub install apidot-music-generation-api
+clawhub install apidot-veo-3-1-api
+clawhub install apidot-seedance-2-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
@@ -63,6 +75,12 @@ skills/
   apidot-async-workflow/
     SKILL.md
   apidot-3d-generation-api/
+    SKILL.md
+  apidot-music-generation-api/
+    SKILL.md
+  apidot-veo-3-1-api/
+    SKILL.md
+  apidot-seedance-2-api/
     SKILL.md
 docs/
   publishing.md

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.0
+
+- Adds `apidot-music-generation-api` as a music-focused ClawHub skill.
+- Adds `apidot-veo-3-1-api` as a Veo 3.1-focused ClawHub skill.
+- Adds `apidot-seedance-2-api` as a Seedance 2-focused ClawHub skill.
+- Updates the repository README with the sixth, seventh, and eighth ClawHub listings and install commands.
+
 ## 1.4.0
 
 - Adds `apidot-3d-generation-api` as a 3D-focused ClawHub skill.
