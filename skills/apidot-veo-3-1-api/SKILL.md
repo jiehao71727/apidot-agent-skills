@@ -16,9 +16,9 @@ metadata:
 
 Use APIDot as a Veo 3.1-focused API surface for text-to-video, image-to-video, reference-guided video, polling, and webhook workflows.
 
-This skill is for routing Veo 3.1 questions to the right APIDot docs, examples, and async integration pattern. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
+This skill is for routing Veo 3.1 questions to the right APIDot docs, examples, reference notes, and async integration pattern. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
 
-This release contains only `SKILL.md`. It includes no executable files, install-time automation, review automation helpers, shell automation, bundled API clients, automatic network calls, or stored credentials.
+This release contains `SKILL.md` plus non-executable notes in `references/api.md`. It includes no executable files, install-time automation, review automation helpers, shell automation, bundled API clients, automatic network calls, or stored credentials.
 
 ## When To Use
 
@@ -37,7 +37,7 @@ Use this skill when the user asks to:
 - Keep APIDot API keys in server-side environment variables or a backend secret manager.
 - Never place an API key in browser code, frontend bundles, public repos, logs, screenshots, or chat output.
 - Do not make live API calls unless the user explicitly asks and provides a safe server-side environment.
-- Do not invent API facts, pricing, model availability, reliability claims, refund behavior, or competitor comparisons.
+- Do not invent API facts, commercial terms, model availability, reliability claims, or competitor comparisons.
 - Use current APIDot docs and model pages for model-specific request fields and current product details.
 
 ## Veo 3.1 Workflow
@@ -66,6 +66,8 @@ Start from the user's Veo task, then open the matching APIDot source:
 | Build with Veo 3.1 | https://apidot.ai/docs/veo-3-1 |
 | Use runnable Veo 3.1 examples | https://github.com/APIDotAI/veo-3.1-api |
 | Use general APIDot examples | https://github.com/APIDotAI/apidot-examples |
+
+Use `references/api.md` for a local, non-executable summary of Veo 3.1 model routing, request planning, and async workflow notes.
 
 For Veo 3.1 variants and request modes, prefer the live APIDot model page and docs page. Do not copy request fields from another video model family unless the APIDot docs show the same field.
 

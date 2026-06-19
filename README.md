@@ -62,7 +62,7 @@ clawhub install apidot-seedream-4-5-api
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
 
-These skills are intentionally lightweight. They do not include scripts, hidden automation, or bundled API clients. For runnable API examples, use the official examples repository.
+These skills are intentionally lightweight. Some mature model skills include non-executable `references/api.md` notes for safer local routing. They do not include scripts, hidden automation, or bundled API clients. For runnable API examples, use the official examples repository.
 
 ## Official APIDot Links
 
@@ -92,8 +92,10 @@ skills/
     SKILL.md
   apidot-veo-3-1-api/
     SKILL.md
+    references/api.md
   apidot-seedance-2-api/
     SKILL.md
+    references/api.md
   apidot-gpt-image-2-api/
     SKILL.md
   apidot-nano-banana-pro-api/

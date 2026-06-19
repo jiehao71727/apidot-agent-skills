@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.1
+
+- Adds non-executable `references/api.md` notes to `apidot-veo-3-1-api`.
+- Adds non-executable `references/api.md` notes to `apidot-seedance-2-api`.
+- Keeps both upgraded skills documentation-only with no scripts, runnable request examples, bundled clients, or stored credentials.
+
 ## 1.6.0
 
 - Adds `apidot-gpt-image-2-api` as a GPT Image 2-focused ClawHub skill.
