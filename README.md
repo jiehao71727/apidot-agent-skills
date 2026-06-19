@@ -16,6 +16,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-music-generation-api` | Use APIDot for music generation API workflows, including text-to-music, song generation, polling, and webhooks. |
 | `apidot-veo-3-1-api` | Use APIDot for Veo 3.1 API workflows, including text-to-video, image-to-video, polling, and webhooks. |
 | `apidot-seedance-2-api` | Use APIDot for Seedance 2 API workflows, including text-to-video, image-to-video, native audio, polling, and webhooks. |
+| `apidot-gpt-image-2-api` | Use APIDot for GPT Image 2 API workflows, including image generation, image editing, polling, and webhooks. |
+| `apidot-nano-banana-pro-api` | Use APIDot for Nano Banana Pro API workflows, including image generation, image editing, polling, and webhooks. |
+| `apidot-seedream-4-5-api` | Use APIDot for Seedream 4.5 API workflows, including image generation, image editing, polling, and webhooks. |
 
 ## Install
 
@@ -37,6 +40,12 @@ https://clawhub.ai/jiehao71727/apidot-veo-3-1-api
 
 https://clawhub.ai/jiehao71727/apidot-seedance-2-api
 
+https://clawhub.ai/jiehao71727/apidot-gpt-image-2-api
+
+https://clawhub.ai/jiehao71727/apidot-nano-banana-pro-api
+
+https://clawhub.ai/jiehao71727/apidot-seedream-4-5-api
+
 ```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
@@ -46,6 +55,9 @@ clawhub install apidot-3d-generation-api
 clawhub install apidot-music-generation-api
 clawhub install apidot-veo-3-1-api
 clawhub install apidot-seedance-2-api
+clawhub install apidot-gpt-image-2-api
+clawhub install apidot-nano-banana-pro-api
+clawhub install apidot-seedream-4-5-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
@@ -81,6 +93,12 @@ skills/
   apidot-veo-3-1-api/
     SKILL.md
   apidot-seedance-2-api/
+    SKILL.md
+  apidot-gpt-image-2-api/
+    SKILL.md
+  apidot-nano-banana-pro-api/
+    SKILL.md
+  apidot-seedream-4-5-api/
     SKILL.md
 docs/
   publishing.md

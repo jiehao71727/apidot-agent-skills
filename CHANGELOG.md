@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.6.0
+
+- Adds `apidot-gpt-image-2-api` as a GPT Image 2-focused ClawHub skill.
+- Adds `apidot-nano-banana-pro-api` as a Nano Banana Pro-focused ClawHub skill.
+- Adds `apidot-seedream-4-5-api` as a Seedream 4.5-focused ClawHub skill.
+- Updates the repository README with the ninth, tenth, and eleventh ClawHub listings and install commands.
+
 ## 1.5.0
 
 - Adds `apidot-music-generation-api` as a music-focused ClawHub skill.
