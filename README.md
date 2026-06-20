@@ -19,6 +19,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-gpt-image-2-api` | Use APIDot for GPT Image 2 API workflows, including image generation, image editing, polling, and webhooks. |
 | `apidot-nano-banana-pro-api` | Use APIDot for Nano Banana Pro API workflows, including image generation, image editing, polling, and webhooks. |
 | `apidot-seedream-4-5-api` | Use APIDot for Seedream 4.5 API workflows, including image generation, image editing, polling, and webhooks. |
+| `apidot-sora-2-official-api` | Use APIDot for Sora 2 Official API workflows, including prompt-to-video, image-guided video, polling, and webhooks. |
+| `apidot-happy-horse-api` | Use APIDot for Happy Horse API workflows, including text-to-video, image-to-video, video editing, polling, and webhooks. |
+| `apidot-nano-banana-2-api` | Use APIDot for Nano Banana 2 API workflows, including image generation, image editing, readable text, polling, and webhooks. |
 
 ## Install
 
@@ -46,6 +49,12 @@ https://clawhub.ai/jiehao71727/apidot-nano-banana-pro-api
 
 https://clawhub.ai/jiehao71727/apidot-seedream-4-5-api
 
+https://clawhub.ai/jiehao71727/apidot-sora-2-official-api
+
+https://clawhub.ai/jiehao71727/apidot-happy-horse-api
+
+https://clawhub.ai/jiehao71727/apidot-nano-banana-2-api
+
 ```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
@@ -58,6 +67,9 @@ clawhub install apidot-seedance-2-api
 clawhub install apidot-gpt-image-2-api
 clawhub install apidot-nano-banana-pro-api
 clawhub install apidot-seedream-4-5-api
+clawhub install apidot-sora-2-official-api
+clawhub install apidot-happy-horse-api
+clawhub install apidot-nano-banana-2-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
@@ -101,6 +113,12 @@ skills/
   apidot-nano-banana-pro-api/
     SKILL.md
   apidot-seedream-4-5-api/
+    SKILL.md
+  apidot-sora-2-official-api/
+    SKILL.md
+  apidot-happy-horse-api/
+    SKILL.md
+  apidot-nano-banana-2-api/
     SKILL.md
 docs/
   publishing.md

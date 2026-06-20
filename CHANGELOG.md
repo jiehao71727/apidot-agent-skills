@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.7.0
+
+- Adds `apidot-sora-2-official-api` as a Sora 2 Official-focused ClawHub skill.
+- Adds `apidot-happy-horse-api` as a Happy Horse-focused ClawHub skill.
+- Adds `apidot-nano-banana-2-api` as a Nano Banana 2-focused ClawHub skill.
+- Updates the repository README with the twelfth, thirteenth, and fourteenth ClawHub listings and install commands.
+
 ## 1.6.1
 
 - Adds non-executable `references/api.md` notes to `apidot-veo-3-1-api`.
