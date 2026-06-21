@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.8.1
+
+- Adds non-executable `references/api.md` notes to `apidot-gpt-image-2-api`.
+- Adds non-executable `references/api.md` notes to `apidot-nano-banana-pro-api`.
+- Adds non-executable `references/api.md` notes to `apidot-seedream-4-5-api`.
+- Keeps all three upgraded skills documentation-only with no scripts, runnable request examples, bundled clients, or stored credentials.
+
 ## 1.8.0
 
 - Adds `apidot-meshy-6-3d-api` as a Meshy 6-focused ClawHub skill.

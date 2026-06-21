@@ -122,10 +122,13 @@ skills/
     references/api.md
   apidot-gpt-image-2-api/
     SKILL.md
+    references/api.md
   apidot-nano-banana-pro-api/
     SKILL.md
+    references/api.md
   apidot-seedream-4-5-api/
     SKILL.md
+    references/api.md
   apidot-sora-2-official-api/
     SKILL.md
   apidot-happy-horse-api/
