@@ -22,6 +22,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-sora-2-official-api` | Use APIDot for Sora 2 Official API workflows, including prompt-to-video, image-guided video, polling, and webhooks. |
 | `apidot-happy-horse-api` | Use APIDot for Happy Horse API workflows, including text-to-video, image-to-video, video editing, polling, and webhooks. |
 | `apidot-nano-banana-2-api` | Use APIDot for Nano Banana 2 API workflows, including image generation, image editing, readable text, polling, and webhooks. |
+| `apidot-meshy-6-3d-api` | Use APIDot for Meshy 6 3D API workflows, including text-to-3D, image-to-3D, multi-image-to-3D, polling, and webhooks. |
+| `apidot-tripo-h31-3d-api` | Use APIDot for Tripo H3.1 3D API workflows, including text-to-3D, image-to-3D, multiview-to-3D, polling, and webhooks. |
+| `apidot-tripo-p1-3d-api` | Use APIDot for Tripo P1 3D API workflows, including text-to-3D, image-to-3D, polling, and webhooks. |
 
 ## Install
 
@@ -55,6 +58,12 @@ https://clawhub.ai/jiehao71727/apidot-happy-horse-api
 
 https://clawhub.ai/jiehao71727/apidot-nano-banana-2-api
 
+https://clawhub.ai/jiehao71727/apidot-meshy-6-3d-api
+
+https://clawhub.ai/jiehao71727/apidot-tripo-h31-3d-api
+
+https://clawhub.ai/jiehao71727/apidot-tripo-p1-3d-api
+
 ```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
@@ -70,6 +79,9 @@ clawhub install apidot-seedream-4-5-api
 clawhub install apidot-sora-2-official-api
 clawhub install apidot-happy-horse-api
 clawhub install apidot-nano-banana-2-api
+clawhub install apidot-meshy-6-3d-api
+clawhub install apidot-tripo-h31-3d-api
+clawhub install apidot-tripo-p1-3d-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
@@ -119,6 +131,12 @@ skills/
   apidot-happy-horse-api/
     SKILL.md
   apidot-nano-banana-2-api/
+    SKILL.md
+  apidot-meshy-6-3d-api/
+    SKILL.md
+  apidot-tripo-h31-3d-api/
+    SKILL.md
+  apidot-tripo-p1-3d-api/
     SKILL.md
 docs/
   publishing.md

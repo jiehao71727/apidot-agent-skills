@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.8.0
+
+- Adds `apidot-meshy-6-3d-api` as a Meshy 6-focused ClawHub skill.
+- Adds `apidot-tripo-h31-3d-api` as a Tripo H3.1-focused ClawHub skill.
+- Adds `apidot-tripo-p1-3d-api` as a Tripo P1-focused ClawHub skill.
+- Updates the repository README with the fifteenth, sixteenth, and seventeenth ClawHub listings and install commands.
+
 ## 1.7.0
 
 - Adds `apidot-sora-2-official-api` as a Sora 2 Official-focused ClawHub skill.
