@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.9.0
+
+- Adds `apidot-claude-4-6-api` as a Claude 4.6-focused ClawHub skill for APIDot chat, Messages API, streaming, and coding-agent workflows.
+- Adds `apidot-gemini-3-api` as a Gemini 3-focused ClawHub skill for native Gemini chat, generateContent, streaming, and coding-assistant workflows.
+- Adds `apidot-wan-2-7-video-api` as a Wan 2.7 Video-focused ClawHub skill for text-to-video, image-to-video, reference-to-video, edit-video, polling, and webhooks.
+- Updates the repository README with the eighteenth, nineteenth, and twentieth ClawHub listings and install commands.
+
 ## 1.8.1
 
 - Adds non-executable `references/api.md` notes to `apidot-gpt-image-2-api`.

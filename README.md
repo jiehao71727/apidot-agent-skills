@@ -25,6 +25,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-meshy-6-3d-api` | Use APIDot for Meshy 6 3D API workflows, including text-to-3D, image-to-3D, multi-image-to-3D, polling, and webhooks. |
 | `apidot-tripo-h31-3d-api` | Use APIDot for Tripo H3.1 3D API workflows, including text-to-3D, image-to-3D, multiview-to-3D, polling, and webhooks. |
 | `apidot-tripo-p1-3d-api` | Use APIDot for Tripo P1 3D API workflows, including text-to-3D, image-to-3D, polling, and webhooks. |
+| `apidot-claude-4-6-api` | Use APIDot for Claude 4.6 API workflows, including Messages API, chat, streaming, and coding-agent use cases. |
+| `apidot-gemini-3-api` | Use APIDot for Gemini 3 API workflows, including native generateContent, streaming, chat, and coding-assistant use cases. |
+| `apidot-wan-2-7-video-api` | Use APIDot for Wan 2.7 Video API workflows, including text-to-video, image-to-video, reference-to-video, edit-video, polling, and webhooks. |
 
 ## Install
 
@@ -64,6 +67,12 @@ https://clawhub.ai/jiehao71727/apidot-tripo-h31-3d-api
 
 https://clawhub.ai/jiehao71727/apidot-tripo-p1-3d-api
 
+https://clawhub.ai/jiehao71727/apidot-claude-4-6-api
+
+https://clawhub.ai/jiehao71727/apidot-gemini-3-api
+
+https://clawhub.ai/jiehao71727/apidot-wan-2-7-video-api
+
 ```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
@@ -82,6 +91,9 @@ clawhub install apidot-nano-banana-2-api
 clawhub install apidot-meshy-6-3d-api
 clawhub install apidot-tripo-h31-3d-api
 clawhub install apidot-tripo-p1-3d-api
+clawhub install apidot-claude-4-6-api
+clawhub install apidot-gemini-3-api
+clawhub install apidot-wan-2-7-video-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
@@ -140,6 +152,12 @@ skills/
   apidot-tripo-h31-3d-api/
     SKILL.md
   apidot-tripo-p1-3d-api/
+    SKILL.md
+  apidot-claude-4-6-api/
+    SKILL.md
+  apidot-gemini-3-api/
+    SKILL.md
+  apidot-wan-2-7-video-api/
     SKILL.md
 docs/
   publishing.md
