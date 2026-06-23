@@ -28,6 +28,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-claude-4-6-api` | Use APIDot for Claude 4.6 API workflows, including Messages API, chat, streaming, and coding-agent use cases. |
 | `apidot-gemini-3-api` | Use APIDot for Gemini 3 API workflows, including native generateContent, streaming, chat, and coding-assistant use cases. |
 | `apidot-wan-2-7-video-api` | Use APIDot for Wan 2.7 Video API workflows, including text-to-video, image-to-video, reference-to-video, edit-video, polling, and webhooks. |
+| `apidot-flux-2-api` | Use APIDot for FLUX.2 API workflows, including image generation, image editing, multi-reference generation, polling, and webhooks. |
+| `apidot-kling-2-6-api` | Use APIDot for Kling 2.6 API workflows, including text-to-video, image-to-video, native audio, polling, and webhooks. |
+| `apidot-grok-imagine-api` | Use APIDot for Grok Imagine API workflows, including image generation, image editing, text-to-video, image-to-video, polling, and webhooks. |
 
 ## Install
 
@@ -73,6 +76,12 @@ https://clawhub.ai/jiehao71727/apidot-gemini-3-api
 
 https://clawhub.ai/jiehao71727/apidot-wan-2-7-video-api
 
+https://clawhub.ai/jiehao71727/apidot-flux-2-api
+
+https://clawhub.ai/jiehao71727/apidot-kling-2-6-api
+
+https://clawhub.ai/jiehao71727/apidot-grok-imagine-api
+
 ```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
@@ -94,6 +103,9 @@ clawhub install apidot-tripo-p1-3d-api
 clawhub install apidot-claude-4-6-api
 clawhub install apidot-gemini-3-api
 clawhub install apidot-wan-2-7-video-api
+clawhub install apidot-flux-2-api
+clawhub install apidot-kling-2-6-api
+clawhub install apidot-grok-imagine-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
@@ -158,6 +170,12 @@ skills/
   apidot-gemini-3-api/
     SKILL.md
   apidot-wan-2-7-video-api/
+    SKILL.md
+  apidot-flux-2-api/
+    SKILL.md
+  apidot-kling-2-6-api/
+    SKILL.md
+  apidot-grok-imagine-api/
     SKILL.md
 docs/
   publishing.md

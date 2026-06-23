@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.10.0
+
+- Adds `apidot-flux-2-api` as a FLUX.2-focused ClawHub skill for image generation, image editing, multi-reference image workflows, polling, and webhooks.
+- Adds `apidot-kling-2-6-api` as a Kling 2.6-focused ClawHub skill for text-to-video, image-to-video, native audio video workflows, polling, and webhooks.
+- Adds `apidot-grok-imagine-api` as a Grok Imagine-focused ClawHub skill for image generation, image editing, text-to-video, image-to-video, polling, and webhooks.
+- Updates the repository README with the twenty-first, twenty-second, and twenty-third ClawHub listings and install commands.
+
 ## 1.9.0
 
 - Adds `apidot-claude-4-6-api` as a Claude 4.6-focused ClawHub skill for APIDot chat, Messages API, streaming, and coding-agent workflows.
