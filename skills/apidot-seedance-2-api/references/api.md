@@ -2,7 +2,7 @@
 
 This reference gives agents a safer, non-executable summary for APIDot Seedance 2 integration work. Use it to choose the right documentation path and request mode before opening the live APIDot docs or runnable GitHub examples.
 
-It contains no shell commands, no runnable request examples, no bundled clients, and no stored credentials.
+This reference contains no shell commands, no runnable request examples, no bundled clients, and no stored credentials. The optional submit helper lives separately at `scripts/submit_seedance_2.sh` and should only be used with a reviewed JSON payload from a trusted server-side environment.
 
 ## Source Of Truth
 
@@ -40,6 +40,17 @@ Before choosing a request shape, identify:
 - Where the backend will persist `task_id`, selected model, source media references, status, and final video URLs.
 
 For copyable request shapes, open the APIDot docs or the Seedance 2 GitHub examples instead of recreating examples inside this skill.
+
+## Script Boundary
+
+The optional submit script is intentionally narrow:
+
+- It accepts a reviewed JSON payload file path or reviewed JSON from standard input.
+- It requires `APIDOT_API_KEY` in the server-side environment.
+- It submits to the APIDot generation submit endpoint.
+- It does not build payloads, poll task status, register webhooks, write local files, store credentials, or download generated videos.
+
+Use the script only after confirming the payload matches the current APIDot Seedance 2 docs.
 
 ## Async Flow
 

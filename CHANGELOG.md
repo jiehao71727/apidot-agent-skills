@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.10.2
+
+- Upgrades `apidot-seedance-2-api` as a controlled full-structure trial.
+- Adds `skill-card.md` for public behavior, risk, and maintenance notes.
+- Adds optional `scripts/submit_seedance_2.sh` for reviewed Seedance 2 JSON payload submission from a trusted server-side environment.
+- Keeps the script narrow: no payload generation, automatic polling, webhook registration, media downloads, bundled clients, stored credentials, or background automation.
+
 ## 1.10.1
 
 - Adds non-executable `references/api.md` notes to `apidot-sora-2-official-api`.

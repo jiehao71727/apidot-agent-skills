@@ -110,7 +110,7 @@ clawhub install apidot-grok-imagine-api
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
 
-These skills are intentionally lightweight. Mature and new model-specific skills use non-executable `references/api.md` notes for safer local routing by default. They do not include scripts, hidden automation, or bundled API clients unless separately planned. For runnable API examples, use the official examples repository.
+These skills are intentionally lightweight. Mature and new model-specific skills use non-executable `references/api.md` notes for safer local routing by default. They do not include scripts, hidden automation, or bundled API clients unless separately planned. `apidot-seedance-2-api` is a controlled full-structure trial with one optional submit script. For runnable API examples, use the official examples repository.
 
 ## Official APIDot Links
 
@@ -144,6 +144,8 @@ skills/
   apidot-seedance-2-api/
     SKILL.md
     references/api.md
+    scripts/submit_seedance_2.sh
+    skill-card.md
   apidot-gpt-image-2-api/
     SKILL.md
     references/api.md

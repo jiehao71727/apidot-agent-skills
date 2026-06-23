@@ -6,6 +6,9 @@ metadata:
   openclaw:
     homepage: https://apidot.ai/docs
     primaryEnv: APIDOT_API_KEY
+    requires:
+      bins:
+        - curl
     envVars:
       - name: APIDOT_API_KEY
         required: false
@@ -16,9 +19,9 @@ metadata:
 
 Use APIDot as a Seedance 2-focused API surface for text-to-video, image-to-video, native-audio video generation, reference media workflows, polling, and webhook delivery.
 
-This skill is for routing Seedance 2 questions to the right APIDot docs, examples, reference notes, and async integration pattern. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
+This skill is for routing Seedance 2 questions to the right APIDot docs, examples, reference notes, async integration pattern, and optional user-run submit helper.
 
-This release contains `SKILL.md` plus non-executable notes in `references/api.md`. It includes no executable files, install-time automation, review automation helpers, shell automation, bundled API clients, automatic network calls, or stored credentials.
+This release contains `SKILL.md`, non-executable notes in `references/api.md`, a public `skill-card.md`, and one optional script at `scripts/submit_seedance_2.sh`. It includes no install-time automation, review automation helpers, background jobs, bundled API clients, automatic network calls, or stored credentials. The script runs only when a user explicitly invokes it with a reviewed JSON payload and a server-side `APIDOT_API_KEY` environment variable.
 
 ## When To Use
 
@@ -30,6 +33,7 @@ Use this skill when the user asks to:
 - Choose between Seedance 2 request modes.
 - Implement APIDot async Seedance jobs with task submission, task status polling, or webhook callbacks.
 - Find APIDot Seedance 2 docs, model pages, or runnable examples.
+- Submit a reviewed Seedance 2 payload from a trusted server-side shell when the user explicitly asks for a live request.
 
 ## Security Rules
 
@@ -37,6 +41,8 @@ Use this skill when the user asks to:
 - Keep APIDot API keys in server-side environment variables or a backend secret manager.
 - Never place an API key in browser code, frontend bundles, public repos, logs, screenshots, or chat output.
 - Do not make live API calls unless the user explicitly asks and provides a safe server-side environment.
+- Only run `scripts/submit_seedance_2.sh` from a trusted server-side shell.
+- Review every payload before submission. Do not place API keys in payload files, prompt text, filenames, logs, screenshots, or command history.
 - Do not invent API facts, commercial terms, model availability, reliability claims, or competitor comparisons.
 - Use current APIDot docs and model pages for model-specific request fields and current product details.
 
@@ -70,6 +76,17 @@ Start from the user's Seedance task, then open the matching APIDot source:
 Use `references/api.md` for a local, non-executable summary of Seedance 2 model routing, request planning, and async workflow notes.
 
 For Seedance 2 variants and request modes, prefer the live APIDot model page and docs page. Do not copy request fields from another video model family unless the APIDot docs show the same field.
+
+## Optional Submit Script
+
+Use `scripts/submit_seedance_2.sh` only when the user explicitly asks to submit a Seedance 2 task and has already reviewed the JSON payload.
+
+- Input is a JSON payload file path or JSON from standard input.
+- The script requires `APIDOT_API_KEY` in the server-side environment.
+- The script requires `curl`.
+- The script submits the payload to the APIDot generation submit endpoint.
+- The script does not create payloads, poll status, register webhooks, store credentials, write local state, or save generated media.
+- After a successful submit, save the returned `data.task_id` and follow APIDot docs for polling or webhook handling.
 
 ## Integration Guidance
 
