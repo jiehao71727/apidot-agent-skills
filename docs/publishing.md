@@ -27,6 +27,22 @@ clawhub sync --all --owner jiehao71727
 
 Always run the dry run first. It scans skill folders containing `SKILL.md` and shows what ClawHub will publish without uploading a release.
 
+## New Skill Preflight
+
+Before creating or publishing a new skill, decide the skill type:
+
+- Use a single `SKILL.md` for broad category skills.
+- Use PoYo-lite for model-specific skills: `SKILL.md` plus non-executable `references/api.md`.
+
+For every model-specific skill:
+
+- Confirm the APIDot model page returns 200.
+- Confirm the APIDot docs page returns 200.
+- Include `references/api.md` in the first release.
+- Keep request examples in APIDot docs or GitHub examples, not inside the ClawHub skill.
+
+Do not publish a model-specific skill for a keyword unless APIDot has a live model page and docs page for it.
+
 ## After Publishing
 
 Check the public listing and search results:
