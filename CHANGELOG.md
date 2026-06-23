@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.10.1
+
+- Adds non-executable `references/api.md` notes to `apidot-sora-2-official-api`.
+- Adds non-executable `references/api.md` notes to `apidot-nano-banana-2-api`.
+- Adds non-executable `references/api.md` notes to `apidot-happy-horse-api`.
+- Keeps all three upgraded skills documentation-only with no scripts, runnable request examples, bundled clients, or stored credentials.
+
 ## 1.10.0
 
 - Adds `apidot-flux-2-api` as a FLUX.2-focused ClawHub skill for image generation, image editing, multi-reference image workflows, polling, and webhooks.

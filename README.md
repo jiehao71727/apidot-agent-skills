@@ -155,10 +155,13 @@ skills/
     references/api.md
   apidot-sora-2-official-api/
     SKILL.md
+    references/api.md
   apidot-happy-horse-api/
     SKILL.md
+    references/api.md
   apidot-nano-banana-2-api/
     SKILL.md
+    references/api.md
   apidot-meshy-6-3d-api/
     SKILL.md
   apidot-tripo-h31-3d-api/
