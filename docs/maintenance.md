@@ -35,6 +35,8 @@ Before publishing any ClawHub version:
 
 Use these defaults for new APIDot ClawHub skills.
 
+Keep skill folders limited to files that ClawHub publishes as part of the package. Repository-only notes, audit summaries, and public skill cards should live under `docs/`, not inside `skills/<slug>/`, so `clawhub sync --dry-run` stays stable and does not keep detecting already-published skills as changed.
+
 ### Category Skills
 
 Category skills stay as a single `SKILL.md`.
@@ -90,6 +92,8 @@ If a script version is ever planned, write a separate implementation plan first.
 ## ClawHub Security Scan Notes
 
 On 2026-06-16, `apidot-ai-api` and `apidot-video-generation-api` moved from Review to Pass after reducing scan-triggering content.
+
+On 2026-06-23, `apidot-seedance-2-api` exposed a packaging rule issue: `skill-card.md` was useful as repository documentation, but ClawHub did not include it in the published package. Keeping that file inside the skill folder made later dry runs think Seedance 2 needed another publish. Move repository-only artifacts to `docs/skill-cards/` instead.
 
 What triggered Review risk:
 

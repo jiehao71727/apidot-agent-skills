@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.11.0
+
+- Adds `apidot-hailuo-2-3-api` as a Hailuo 2.3-focused ClawHub skill for text-to-video, image-to-video, start image guidance, prompt optimization planning, polling, and webhooks.
+- Publishes the new model-specific skill with the default PoYo-lite structure: `SKILL.md` plus non-executable `references/api.md`.
+- Keeps the new skill documentation-only with no scripts, runnable request examples, bundled clients, stored credentials, commercial claims, or competitor comparisons.
+- Moves the Seedance 2 repository-only skill card out of the ClawHub package folder so future dry runs stay focused on real package changes.
+- Updates the repository README with the twenty-fourth ClawHub listing and install command.
+
 ## 1.10.3
 
 - Clarifies that `skill-card.md` is repository documentation while the ClawHub package contains `SKILL.md`, `references/api.md`, and `scripts/submit_seedance_2.sh`.
