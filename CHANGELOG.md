@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.10.3
+
+- Clarifies that `skill-card.md` is repository documentation while the ClawHub package contains `SKILL.md`, `references/api.md`, and `scripts/submit_seedance_2.sh`.
+- Makes no behavior changes to the Seedance 2 submit script.
+
 ## 1.10.2
 
 - Upgrades `apidot-seedance-2-api` as a controlled full-structure trial.

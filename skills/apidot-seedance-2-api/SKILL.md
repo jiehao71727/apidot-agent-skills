@@ -21,7 +21,7 @@ Use APIDot as a Seedance 2-focused API surface for text-to-video, image-to-video
 
 This skill is for routing Seedance 2 questions to the right APIDot docs, examples, reference notes, async integration pattern, and optional user-run submit helper.
 
-This release contains `SKILL.md`, non-executable notes in `references/api.md`, a public `skill-card.md`, and one optional script at `scripts/submit_seedance_2.sh`. It includes no install-time automation, review automation helpers, background jobs, bundled API clients, automatic network calls, or stored credentials. The script runs only when a user explicitly invokes it with a reviewed JSON payload and a server-side `APIDOT_API_KEY` environment variable.
+This ClawHub package contains `SKILL.md`, non-executable notes in `references/api.md`, and one optional script at `scripts/submit_seedance_2.sh`. The GitHub repository also keeps `skill-card.md` for public behavior, risk, and maintenance notes. The package includes no install-time automation, review automation helpers, background jobs, bundled API clients, automatic network calls, or stored credentials. The script runs only when a user explicitly invokes it with a reviewed JSON payload and a server-side `APIDOT_API_KEY` environment variable.
 
 ## When To Use
 
