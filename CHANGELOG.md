@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.12.0
+
+- Adds `apidot-kling-3-0-api` as a Kling 3.0-focused ClawHub skill for text-to-video, image-to-video, multi-shot video, Native Audio, polling, and webhooks.
+- Adds `apidot-runway-gen-4-5-api` as a Runway Gen-4.5-focused ClawHub skill for cinematic text-to-video, image-to-video, polling, and webhooks.
+- Adds `apidot-wan-2-6-api` as a Wan 2.6-focused ClawHub skill for text-to-video, image-to-video, video-to-video, multi-shot video, polling, and webhooks.
+- Publishes all three model-specific skills with the default PoYo-lite structure: `SKILL.md` plus non-executable `references/api.md`.
+- Keeps the new skills documentation-only with no scripts, runnable request examples, bundled clients, stored credentials, commercial claims, or competitor comparisons.
+- Updates the repository README with the twenty-fifth, twenty-sixth, and twenty-seventh ClawHub listings and install commands.
+
 ## 1.11.0
 
 - Adds `apidot-hailuo-2-3-api` as a Hailuo 2.3-focused ClawHub skill for text-to-video, image-to-video, start image guidance, prompt optimization planning, polling, and webhooks.

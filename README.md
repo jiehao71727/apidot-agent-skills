@@ -32,6 +32,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-kling-2-6-api` | Use APIDot for Kling 2.6 API workflows, including text-to-video, image-to-video, native audio, polling, and webhooks. |
 | `apidot-grok-imagine-api` | Use APIDot for Grok Imagine API workflows, including image generation, image editing, text-to-video, image-to-video, polling, and webhooks. |
 | `apidot-hailuo-2-3-api` | Use APIDot for Hailuo 2.3 API workflows, including text-to-video, image-to-video, prompt optimization, polling, and webhooks. |
+| `apidot-kling-3-0-api` | Use APIDot for Kling 3.0 API workflows, including text-to-video, image-to-video, multi-shot video, Native Audio, polling, and webhooks. |
+| `apidot-runway-gen-4-5-api` | Use APIDot for Runway Gen-4.5 API workflows, including cinematic text-to-video, image-to-video, polling, and webhooks. |
+| `apidot-wan-2-6-api` | Use APIDot for Wan 2.6 API workflows, including text-to-video, image-to-video, video-to-video, multi-shot video, polling, and webhooks. |
 
 ## Install
 
@@ -85,6 +88,12 @@ https://clawhub.ai/jiehao71727/apidot-grok-imagine-api
 
 https://clawhub.ai/jiehao71727/apidot-hailuo-2-3-api
 
+https://clawhub.ai/jiehao71727/apidot-kling-3-0-api
+
+https://clawhub.ai/jiehao71727/apidot-runway-gen-4-5-api
+
+https://clawhub.ai/jiehao71727/apidot-wan-2-6-api
+
 ```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
@@ -110,6 +119,9 @@ clawhub install apidot-flux-2-api
 clawhub install apidot-kling-2-6-api
 clawhub install apidot-grok-imagine-api
 clawhub install apidot-hailuo-2-3-api
+clawhub install apidot-kling-3-0-api
+clawhub install apidot-runway-gen-4-5-api
+clawhub install apidot-wan-2-6-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
@@ -186,6 +198,15 @@ skills/
   apidot-grok-imagine-api/
     SKILL.md
   apidot-hailuo-2-3-api/
+    SKILL.md
+    references/api.md
+  apidot-kling-3-0-api/
+    SKILL.md
+    references/api.md
+  apidot-runway-gen-4-5-api/
+    SKILL.md
+    references/api.md
+  apidot-wan-2-6-api/
     SKILL.md
     references/api.md
 docs/
