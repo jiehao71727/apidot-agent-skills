@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.13.0
+
+- Adds `apidot-veo-3-1-official-api` as a Veo 3.1 Official-focused ClawHub skill for text-to-video, image guidance, first/last-frame control, native audio, polling, and webhooks.
+- Adds `apidot-seedance-1-5-pro-api` as a Seedance 1.5 Pro-focused ClawHub skill for text-to-video, image-to-video, synchronized audio, frame control, polling, and webhooks.
+- Adds `apidot-kling-o3-api` as a Kling O3-focused ClawHub skill for text-to-video, image-to-video, reference-guided video, multi-shot video, Native Audio, polling, and webhooks.
+- Publishes all three model-specific skills with the default PoYo-lite structure: `SKILL.md` plus non-executable `references/api.md`.
+- Keeps the new skills documentation-only with no scripts, runnable request examples, bundled clients, stored credentials, commercial claims, or competitor comparisons.
+- Updates the repository README with the twenty-eighth, twenty-ninth, and thirtieth ClawHub listings and install commands.
+
 ## 1.12.0
 
 - Adds `apidot-kling-3-0-api` as a Kling 3.0-focused ClawHub skill for text-to-video, image-to-video, multi-shot video, Native Audio, polling, and webhooks.

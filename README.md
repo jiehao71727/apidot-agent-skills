@@ -35,6 +35,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-kling-3-0-api` | Use APIDot for Kling 3.0 API workflows, including text-to-video, image-to-video, multi-shot video, Native Audio, polling, and webhooks. |
 | `apidot-runway-gen-4-5-api` | Use APIDot for Runway Gen-4.5 API workflows, including cinematic text-to-video, image-to-video, polling, and webhooks. |
 | `apidot-wan-2-6-api` | Use APIDot for Wan 2.6 API workflows, including text-to-video, image-to-video, video-to-video, multi-shot video, polling, and webhooks. |
+| `apidot-veo-3-1-official-api` | Use APIDot for Veo 3.1 Official API workflows, including text-to-video, image guidance, first/last-frame control, native audio, polling, and webhooks. |
+| `apidot-seedance-1-5-pro-api` | Use APIDot for Seedance 1.5 Pro API workflows, including text-to-video, image-to-video, synchronized audio, frame control, polling, and webhooks. |
+| `apidot-kling-o3-api` | Use APIDot for Kling O3 API workflows, including text-to-video, image-to-video, reference-guided video, multi-shot video, Native Audio, polling, and webhooks. |
 
 ## Install
 
@@ -94,6 +97,12 @@ https://clawhub.ai/jiehao71727/apidot-runway-gen-4-5-api
 
 https://clawhub.ai/jiehao71727/apidot-wan-2-6-api
 
+https://clawhub.ai/jiehao71727/apidot-veo-3-1-official-api
+
+https://clawhub.ai/jiehao71727/apidot-seedance-1-5-pro-api
+
+https://clawhub.ai/jiehao71727/apidot-kling-o3-api
+
 ```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
@@ -122,6 +131,9 @@ clawhub install apidot-hailuo-2-3-api
 clawhub install apidot-kling-3-0-api
 clawhub install apidot-runway-gen-4-5-api
 clawhub install apidot-wan-2-6-api
+clawhub install apidot-veo-3-1-official-api
+clawhub install apidot-seedance-1-5-pro-api
+clawhub install apidot-kling-o3-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
@@ -207,6 +219,15 @@ skills/
     SKILL.md
     references/api.md
   apidot-wan-2-6-api/
+    SKILL.md
+    references/api.md
+  apidot-veo-3-1-official-api/
+    SKILL.md
+    references/api.md
+  apidot-seedance-1-5-pro-api/
+    SKILL.md
+    references/api.md
+  apidot-kling-o3-api/
     SKILL.md
     references/api.md
 docs/
