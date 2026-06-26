@@ -35,6 +35,14 @@ Before publishing any ClawHub version:
 
 Use these defaults for new APIDot ClawHub skills.
 
+APIDot ClawHub skills use three approved structures:
+
+- Category skills: `SKILL.md` only.
+- Normal model skills: `SKILL.md` plus `references/api.md`.
+- Script pilot skills: `SKILL.md`, `references/api.md`, and a narrowly scoped helper under `scripts/`.
+
+As of 2026-06-26, `apidot-seedance-2-api` and `apidot-veo-3-1-api` are the only script pilots. They were converted because their ClawHub feedback was strong enough to justify testing whether explicit submit helpers improve installs and retention. Do not copy that structure to other model skills by default.
+
 Keep skill folders limited to files that ClawHub publishes as part of the package. Repository-only notes, audit summaries, and public skill cards should live under `docs/`, not inside `skills/<slug>/`, so `clawhub sync --dry-run` stays stable and does not keep detecting already-published skills as changed.
 
 ### Category Skills
@@ -64,12 +72,14 @@ skills/<model-skill-slug>/
 
 Use this structure for skills focused on one model family, such as Sora, Veo, Seedance, Nano Banana, FLUX, Kling, Meshy, Tripo, or similar APIDot model entries.
 
-The `SKILL.md` must include:
+Normal model `SKILL.md` files must include:
 
 - Frontmatter with `name`, `description`, `homepage`, and `metadata.openclaw.primaryEnv: APIDOT_API_KEY`.
 - A documentation-only safety statement.
 - Clear language that the skill has no scripts, automatic network calls, bundled clients, or stored credentials.
 - Sections for When To Use, Security Rules, Workflow, Model Routing, Integration Guidance, and Official Links.
+
+Script pilot `SKILL.md` files must clearly describe the optional script, require explicit user invocation, and state that the package has no install-time automation, background jobs, bundled API clients, automatic network calls, stored credentials, or generated-media persistence.
 
 The `references/api.md` must include:
 
@@ -88,6 +98,14 @@ Do not use full PoYo structure by default.
 Full PoYo structure includes scripts or direct submission helpers. Only evaluate it when a skill already has meaningful downloads or installs and users explicitly need direct task submission from the skill.
 
 If a script version is ever planned, write a separate implementation plan first. Do not quietly add `scripts/`, installers, shell automation, bundled API clients, or executable request examples to a docs-only skill.
+
+Use these current promotion gates before proposing another script pilot:
+
+- Prefer a concrete model skill, not a category skill.
+- Prefer video or other async task workflows where a submit helper directly returns a `task_id`.
+- Require at least 120 downloads and at least 5 all-time installs from recent ClawHub feedback before promotion.
+- Keep the script narrowly scoped to user-triggered submission only; it must not create payloads, poll status, register webhooks, store credentials, or save generated media.
+- After `apidot-seedance-2-api` and `apidot-veo-3-1-api`, promote no additional script pilots until both show that submit helpers improve installs or current-install retention.
 
 ## ClawHub Security Scan Notes
 

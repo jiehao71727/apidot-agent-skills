@@ -16,9 +16,9 @@ metadata:
 
 Use APIDot as a Grok Imagine-focused API surface for xAI image generation, image editing, text-to-video, image-to-video, polling, and webhook delivery.
 
-This skill is for routing Grok Imagine questions to the right APIDot docs, model pages, and async integration guidance. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
+This skill is for routing Grok Imagine questions to the right APIDot docs, model pages, reference notes, and async integration guidance. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
 
-This release contains only `SKILL.md`. It includes no executable files, install-time automation, review automation helpers, bundled API clients, automatic network calls, or stored credentials.
+This release contains `SKILL.md` plus non-executable notes in `references/api.md`. It includes no executable files, install-time automation, review automation helpers, bundled API clients, automatic network calls, or stored credentials.
 
 ## When To Use
 
@@ -68,6 +68,8 @@ Start from the user's Grok Imagine task, then open the matching APIDot source:
 | Use general APIDot examples | https://github.com/APIDotAI/apidot-examples |
 
 For Grok Imagine request modes, prefer the live APIDot model page and docs pages. Do not copy request fields from another image or video model family unless the APIDot docs show the same field.
+
+Use `references/api.md` for a local, non-executable summary of Grok Imagine model routing, request planning, and async workflow notes.
 
 ## Integration Guidance
 

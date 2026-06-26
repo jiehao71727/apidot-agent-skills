@@ -16,9 +16,9 @@ metadata:
 
 Use APIDot as a Tripo H3.1-focused API surface for text-to-3D, image-to-3D, multiview-to-3D, 3D asset polling, and webhook workflows.
 
-This skill is for routing Tripo H3.1 3D questions to the right APIDot docs, examples, and async integration pattern. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
+This skill is for routing Tripo H3.1 3D questions to the right APIDot docs, examples, reference notes, and async integration pattern. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
 
-This release contains only `SKILL.md`. It includes no executable files, install-time automation, review automation helpers, shell automation, bundled API clients, automatic network calls, or stored credentials.
+This release contains `SKILL.md` plus non-executable notes in `references/api.md`. It includes no executable files, install-time automation, review automation helpers, shell automation, bundled API clients, automatic network calls, or stored credentials.
 
 ## When To Use
 
@@ -68,6 +68,8 @@ Start from the user's Tripo H3.1 task, then open the matching APIDot source:
 | Use general APIDot examples | https://github.com/APIDotAI/apidot-examples |
 
 For Tripo H3.1 request modes, prefer the live APIDot model page and docs page. Do not copy request fields from another 3D model family unless the APIDot docs show the same field.
+
+Use `references/api.md` for a local, non-executable summary of Tripo H3.1 model routing, request planning, and async workflow notes.
 
 ## Integration Guidance
 

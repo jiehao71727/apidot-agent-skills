@@ -33,11 +33,11 @@ if [ -n "$payload_file" ]; then
   body_file="$payload_file"
 else
   if [ -t 0 ]; then
-    echo "Usage: set APIDOT_API_KEY in the environment, then run scripts/submit_seedance_2.sh [payload.json]" >&2
+    echo "Usage: set APIDOT_API_KEY in the environment, then run scripts/submit_veo_3_1.sh [payload.json]" >&2
     echo "Or pipe a reviewed JSON payload through standard input." >&2
     exit 1
   fi
-  tmp_body_file=$(mktemp "${TMPDIR:-/tmp}/apidot-seedance-2-payload.XXXXXX")
+  tmp_body_file=$(mktemp "${TMPDIR:-/tmp}/apidot-veo-3-1-payload.XXXXXX")
   body_file="$tmp_body_file"
   chmod 600 "$body_file"
   cat > "$body_file"
