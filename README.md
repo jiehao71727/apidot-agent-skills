@@ -38,6 +38,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-veo-3-1-official-api` | Use APIDot for Veo 3.1 Official API workflows, including text-to-video, image guidance, first/last-frame control, native audio, polling, and webhooks. |
 | `apidot-seedance-1-5-pro-api` | Use APIDot for Seedance 1.5 Pro API workflows, including text-to-video, image-to-video, synchronized audio, frame control, polling, and webhooks. |
 | `apidot-kling-o3-api` | Use APIDot for Kling O3 API workflows, including text-to-video, image-to-video, reference-guided video, multi-shot video, Native Audio, polling, and webhooks. |
+| `apidot-hailuo-02-api` | Use APIDot for Hailuo 02 API workflows, including text-to-video, image-to-video, first/last-frame guidance, polling, and webhooks. |
+| `apidot-z-image-api` | Use APIDot for Z-Image API workflows, including text-to-image, prompt planning, aspect ratio planning, polling, and webhooks. |
+| `apidot-seedream-5-0-lite-api` | Use APIDot for Seedream 5.0 Lite API workflows, including image generation, image editing, reference-guided layouts, polling, and webhooks. |
 
 ## Install
 
@@ -103,6 +106,12 @@ https://clawhub.ai/jiehao71727/apidot-seedance-1-5-pro-api
 
 https://clawhub.ai/jiehao71727/apidot-kling-o3-api
 
+https://clawhub.ai/jiehao71727/apidot-hailuo-02-api
+
+https://clawhub.ai/jiehao71727/apidot-z-image-api
+
+https://clawhub.ai/jiehao71727/apidot-seedream-5-0-lite-api
+
 ```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
@@ -134,6 +143,9 @@ clawhub install apidot-wan-2-6-api
 clawhub install apidot-veo-3-1-official-api
 clawhub install apidot-seedance-1-5-pro-api
 clawhub install apidot-kling-o3-api
+clawhub install apidot-hailuo-02-api
+clawhub install apidot-z-image-api
+clawhub install apidot-seedream-5-0-lite-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
@@ -228,6 +240,15 @@ skills/
     SKILL.md
     references/api.md
   apidot-kling-o3-api/
+    SKILL.md
+    references/api.md
+  apidot-hailuo-02-api/
+    SKILL.md
+    references/api.md
+  apidot-z-image-api/
+    SKILL.md
+    references/api.md
+  apidot-seedream-5-0-lite-api/
     SKILL.md
     references/api.md
 docs/

@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.14.0
+
+- Adds `apidot-hailuo-02-api` as a Hailuo 02-focused ClawHub skill for text-to-video, image-to-video, first/last-frame guidance, polling, and webhooks.
+- Adds `apidot-z-image-api` as a Z-Image-focused ClawHub skill for text-to-image, prompt planning, aspect ratio planning, safety checker planning, polling, and webhooks.
+- Adds `apidot-seedream-5-0-lite-api` as a Seedream 5.0 Lite-focused ClawHub skill for image generation, image editing, reference-guided layouts, polling, and webhooks.
+- Publishes all three model-specific skills with the default PoYo-lite structure: `SKILL.md` plus non-executable `references/api.md`.
+- Keeps the new skills documentation-only with no scripts, runnable request examples, bundled clients, stored credentials, commercial claims, or competitor comparisons.
+- Updates the repository README with the thirty-first, thirty-second, and thirty-third ClawHub listings and install commands.
+
 ## 1.13.0
 
 - Adds `apidot-veo-3-1-official-api` as a Veo 3.1 Official-focused ClawHub skill for text-to-video, image guidance, first/last-frame control, native audio, polling, and webhooks.
