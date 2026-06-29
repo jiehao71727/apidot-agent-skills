@@ -1,6 +1,6 @@
 ---
 name: apidot-claude-4-5-api
-description: "Use APIDot for Claude 4.5 API workflows, including Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, Messages API, chat completions, streaming, tool use planning, production chat, coding agents, API key safety guidance, and APIDot docs routing."
+description: "Claude 4.5 API on APIDot for Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, Claude 4 5, claude-4-5, Messages API, chat completions, streaming, tool use, coding agents, production chat, API key safety, and APIDot docs routing."
 homepage: https://apidot.ai/models/claude-4-5
 metadata:
   openclaw:
@@ -19,6 +19,10 @@ Use APIDot as a Claude 4.5-focused API surface for production chat, coding agent
 This skill is for routing Claude 4.5 questions to the right APIDot docs, model pages, reference notes, and integration guidance. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
 
 This release contains `SKILL.md` plus non-executable notes in `references/api.md`. It includes no executable files, install-time automation, review automation helpers, shell automation, bundled API clients, automatic network calls, or stored credentials.
+
+## Search Terms
+
+Use this skill for searches and requests phrased as Claude 4.5 API, Claude 4 5 API, claude-4-5, Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, Anthropic Messages API, Claude coding agent API, or APIDot Claude API.
 
 ## When To Use
 

@@ -1,6 +1,6 @@
 ---
 name: apidot-kling-3-0-motion-control-api
-description: "Use APIDot for Kling 3.0 Motion Control API workflows, including motion transfer, reference video to character animation, image-to-video API, reference-to-video API, dance transfer, action transfer, async task submission, task_id handling, polling, task status, webhook integration, and APIDot docs routing."
+description: "Kling 3.0 Motion Control API on APIDot for kling 3 0 motion control, kling-3-0-motion-control, motion transfer, reference video to character image, dance transfer, action transfer, controllable animation, image-to-video, task_id, polling, webhooks, and APIDot docs routing."
 homepage: https://apidot.ai/models/kling-3-0-motion-control
 metadata:
   openclaw:
@@ -19,6 +19,10 @@ Use APIDot as a Kling 3.0 Motion Control-focused API surface for transferring mo
 This skill is for routing Kling 3.0 Motion Control questions to the right APIDot docs, model pages, reference notes, and async integration pattern. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
 
 This release contains `SKILL.md` plus non-executable notes in `references/api.md`. It includes no executable files, install-time automation, review automation helpers, shell automation, bundled API clients, automatic network calls, or stored credentials.
+
+## Search Terms
+
+Use this skill for searches and requests phrased as Kling 3.0 Motion Control, Kling 3 0 motion control, kling-3-0-motion-control, kling3 motion control, motion transfer, reference video to character image, dance transfer, action transfer, controllable animation, or APIDot Kling API.
 
 ## When To Use
 

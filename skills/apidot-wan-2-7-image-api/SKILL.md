@@ -1,6 +1,6 @@
 ---
 name: apidot-wan-2-7-image-api
-description: "Use APIDot for Wan 2.7 Image API workflows, including Wan 2.7 Image, Wan 2.7 Image Pro, text-to-image API, image editing API, image-to-image API, multi-reference generation, readable visual text, prompt adherence, async task submission, task_id handling, polling, task status, webhook integration, and APIDot docs routing."
+description: "Wan 2.7 Image API on APIDot for wan 2 7 image, wan2.7 image, wan27 image, Wan 2.7 Image Pro, text-to-image, image editing, image-to-image, multi-reference generation, readable visual text, task_id, polling, webhooks, and APIDot docs routing."
 homepage: https://apidot.ai/models/wan-2-7-image
 metadata:
   openclaw:
@@ -19,6 +19,10 @@ Use APIDot as a Wan 2.7 Image-focused API surface for text-to-image generation, 
 This skill is for routing Wan 2.7 Image questions to the right APIDot docs, model pages, reference notes, and async integration pattern. It is documentation-only: it includes no scripts, makes no network requests, and does not store credentials.
 
 This release contains `SKILL.md` plus non-executable notes in `references/api.md`. It includes no executable files, install-time automation, review automation helpers, shell automation, bundled API clients, automatic network calls, or stored credentials.
+
+## Search Terms
+
+Use this skill for searches and requests phrased as Wan 2.7 Image API, Wan 2 7 Image, wan2.7 image, wan27 image, wan-2-7-image, Wan 2.7 Image Pro, Wan image generation, Wan image editing, multi-reference image generation, or APIDot Wan API.
 
 ## When To Use
 
