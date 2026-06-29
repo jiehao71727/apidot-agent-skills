@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.15.0
+
+- Adds `apidot-grok-imagine-video-1-5-api` as a Grok Imagine Video 1.5-focused ClawHub skill for image-to-video, reference image animation, prompt-guided motion, polling, and webhooks.
+- Adds `apidot-kling-2-5-turbo-pro-api` as a Kling 2.5 Turbo Pro-focused ClawHub skill for text-to-video, image-to-video, start/end-frame guidance, polling, and webhooks.
+- Adds `apidot-wan-2-2-fast-api` as a Wan 2.2 Fast-focused ClawHub skill for fast text-to-video drafts, image-to-video drafts, simple transitions, polling, and webhooks.
+- Publishes all three model-specific skills with the default PoYo-lite structure: `SKILL.md` plus non-executable `references/api.md`.
+- Keeps the new skills documentation-only with no scripts, runnable request examples, bundled clients, stored credentials, commercial claims, or competitor comparisons.
+- Updates the repository README with the new ClawHub listings and install commands.
+
 ## 1.14.0
 
 - Adds `apidot-hailuo-02-api` as a Hailuo 02-focused ClawHub skill for text-to-video, image-to-video, first/last-frame guidance, polling, and webhooks.

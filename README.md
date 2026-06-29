@@ -41,6 +41,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-hailuo-02-api` | Use APIDot for Hailuo 02 API workflows, including text-to-video, image-to-video, first/last-frame guidance, polling, and webhooks. |
 | `apidot-z-image-api` | Use APIDot for Z-Image API workflows, including text-to-image, prompt planning, aspect ratio planning, polling, and webhooks. |
 | `apidot-seedream-5-0-lite-api` | Use APIDot for Seedream 5.0 Lite API workflows, including image generation, image editing, reference-guided layouts, polling, and webhooks. |
+| `apidot-grok-imagine-video-1-5-api` | Use APIDot for Grok Imagine Video 1.5 API workflows, including image-to-video, reference image animation, prompt-guided motion, polling, and webhooks. |
+| `apidot-kling-2-5-turbo-pro-api` | Use APIDot for Kling 2.5 Turbo Pro API workflows, including text-to-video, image-to-video, start/end-frame guidance, polling, and webhooks. |
+| `apidot-wan-2-2-fast-api` | Use APIDot for Wan 2.2 Fast API workflows, including fast text-to-video drafts, image-to-video drafts, simple transitions, polling, and webhooks. |
 
 ## Install
 
@@ -112,6 +115,12 @@ https://clawhub.ai/jiehao71727/apidot-z-image-api
 
 https://clawhub.ai/jiehao71727/apidot-seedream-5-0-lite-api
 
+https://clawhub.ai/jiehao71727/apidot-grok-imagine-video-1-5-api
+
+https://clawhub.ai/jiehao71727/apidot-kling-2-5-turbo-pro-api
+
+https://clawhub.ai/jiehao71727/apidot-wan-2-2-fast-api
+
 ```text
 clawhub install apidot-ai-api
 clawhub install apidot-video-generation-api
@@ -146,6 +155,9 @@ clawhub install apidot-kling-o3-api
 clawhub install apidot-hailuo-02-api
 clawhub install apidot-z-image-api
 clawhub install apidot-seedream-5-0-lite-api
+clawhub install apidot-grok-imagine-video-1-5-api
+clawhub install apidot-kling-2-5-turbo-pro-api
+clawhub install apidot-wan-2-2-fast-api
 ```
 
 If you do not have the ClawHub CLI installed, follow the ClawHub install documentation first.
