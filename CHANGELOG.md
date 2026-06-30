@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.16.0
+
+- Adds `apidot-kling-2-1-api` as a Kling 2.1-focused ClawHub skill for image-to-video, start-frame guidance, optional end-frame control, polling, and webhooks.
+- Adds `apidot-kling-o3-image-api` as a Kling O3 Image-focused ClawHub skill for text-to-image, image editing, element control, polling, and webhooks.
+- Adds `apidot-flux-kontext-api` as a Flux Kontext-focused ClawHub skill for context-aware image generation, image editing, character consistency, local edits, polling, and webhooks.
+- Publishes all three model-specific skills with the default PoYo-lite structure: `SKILL.md` plus non-executable `references/api.md`.
+- Keeps the new skills documentation-only with no scripts, runnable request examples, bundled clients, stored credentials, commercial claims, or competitor comparisons.
+- Updates the repository README with the new ClawHub listings and install commands.
+
 ## 1.15.0
 
 - Adds `apidot-grok-imagine-video-1-5-api` as a Grok Imagine Video 1.5-focused ClawHub skill for image-to-video, reference image animation, prompt-guided motion, polling, and webhooks.

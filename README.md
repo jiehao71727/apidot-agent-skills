@@ -29,7 +29,9 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-gemini-3-api` | Use APIDot for Gemini 3 API workflows, including native generateContent, streaming, chat, and coding-assistant use cases. |
 | `apidot-wan-2-7-video-api` | Use APIDot for Wan 2.7 Video API workflows, including text-to-video, image-to-video, reference-to-video, edit-video, polling, and webhooks. |
 | `apidot-flux-2-api` | Use APIDot for FLUX.2 API workflows, including image generation, image editing, multi-reference generation, polling, and webhooks. |
+| `apidot-flux-kontext-api` | Use APIDot for Flux Kontext API workflows, including context-aware image generation, image editing, character consistency, local edits, polling, and webhooks. |
 | `apidot-kling-2-6-api` | Use APIDot for Kling 2.6 API workflows, including text-to-video, image-to-video, native audio, polling, and webhooks. |
+| `apidot-kling-2-1-api` | Use APIDot for Kling 2.1 API workflows, including image-to-video, start-frame guidance, optional end-frame control, polling, and webhooks. |
 | `apidot-grok-imagine-api` | Use APIDot for Grok Imagine API workflows, including image generation, image editing, text-to-video, image-to-video, polling, and webhooks. |
 | `apidot-hailuo-2-3-api` | Use APIDot for Hailuo 2.3 API workflows, including text-to-video, image-to-video, prompt optimization, polling, and webhooks. |
 | `apidot-kling-3-0-api` | Use APIDot for Kling 3.0 API workflows, including text-to-video, image-to-video, multi-shot video, Native Audio, polling, and webhooks. |
@@ -38,6 +40,7 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-veo-3-1-official-api` | Use APIDot for Veo 3.1 Official API workflows, including text-to-video, image guidance, first/last-frame control, native audio, polling, and webhooks. |
 | `apidot-seedance-1-5-pro-api` | Use APIDot for Seedance 1.5 Pro API workflows, including text-to-video, image-to-video, synchronized audio, frame control, polling, and webhooks. |
 | `apidot-kling-o3-api` | Use APIDot for Kling O3 API workflows, including text-to-video, image-to-video, reference-guided video, multi-shot video, Native Audio, polling, and webhooks. |
+| `apidot-kling-o3-image-api` | Use APIDot for Kling O3 Image API workflows, including text-to-image, image editing, element control, polling, and webhooks. |
 | `apidot-hailuo-02-api` | Use APIDot for Hailuo 02 API workflows, including text-to-video, image-to-video, first/last-frame guidance, polling, and webhooks. |
 | `apidot-z-image-api` | Use APIDot for Z-Image API workflows, including text-to-image, prompt planning, aspect ratio planning, polling, and webhooks. |
 | `apidot-seedream-5-0-lite-api` | Use APIDot for Seedream 5.0 Lite API workflows, including image generation, image editing, reference-guided layouts, polling, and webhooks. |
@@ -91,7 +94,11 @@ https://clawhub.ai/jiehao71727/apidot-wan-2-7-video-api
 
 https://clawhub.ai/jiehao71727/apidot-flux-2-api
 
+https://clawhub.ai/jiehao71727/apidot-flux-kontext-api
+
 https://clawhub.ai/jiehao71727/apidot-kling-2-6-api
+
+https://clawhub.ai/jiehao71727/apidot-kling-2-1-api
 
 https://clawhub.ai/jiehao71727/apidot-grok-imagine-api
 
@@ -108,6 +115,8 @@ https://clawhub.ai/jiehao71727/apidot-veo-3-1-official-api
 https://clawhub.ai/jiehao71727/apidot-seedance-1-5-pro-api
 
 https://clawhub.ai/jiehao71727/apidot-kling-o3-api
+
+https://clawhub.ai/jiehao71727/apidot-kling-o3-image-api
 
 https://clawhub.ai/jiehao71727/apidot-hailuo-02-api
 
@@ -143,7 +152,9 @@ clawhub install apidot-claude-4-6-api
 clawhub install apidot-gemini-3-api
 clawhub install apidot-wan-2-7-video-api
 clawhub install apidot-flux-2-api
+clawhub install apidot-flux-kontext-api
 clawhub install apidot-kling-2-6-api
+clawhub install apidot-kling-2-1-api
 clawhub install apidot-grok-imagine-api
 clawhub install apidot-hailuo-2-3-api
 clawhub install apidot-kling-3-0-api
@@ -152,6 +163,7 @@ clawhub install apidot-wan-2-6-api
 clawhub install apidot-veo-3-1-official-api
 clawhub install apidot-seedance-1-5-pro-api
 clawhub install apidot-kling-o3-api
+clawhub install apidot-kling-o3-image-api
 clawhub install apidot-hailuo-02-api
 clawhub install apidot-z-image-api
 clawhub install apidot-seedream-5-0-lite-api
@@ -229,8 +241,14 @@ skills/
     SKILL.md
   apidot-flux-2-api/
     SKILL.md
+  apidot-flux-kontext-api/
+    SKILL.md
+    references/api.md
   apidot-kling-2-6-api/
     SKILL.md
+  apidot-kling-2-1-api/
+    SKILL.md
+    references/api.md
   apidot-grok-imagine-api/
     SKILL.md
   apidot-hailuo-2-3-api/
@@ -252,6 +270,9 @@ skills/
     SKILL.md
     references/api.md
   apidot-kling-o3-api/
+    SKILL.md
+    references/api.md
+  apidot-kling-o3-image-api/
     SKILL.md
     references/api.md
   apidot-hailuo-02-api/
