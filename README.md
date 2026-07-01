@@ -14,10 +14,12 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-async-workflow` | Use APIDot async task workflow guidance for task submission, task status, polling, callback URLs, and webhooks. |
 | `apidot-3d-generation-api` | Use APIDot for 3D generation API workflows, including text-to-3D, image-to-3D, polling, and webhooks. |
 | `apidot-music-generation-api` | Use APIDot for music generation API workflows, including text-to-music, song generation, polling, and webhooks. |
+| `apidot-minimax-music-2-6-api` | Use APIDot for MiniMax Music 2.6 API workflows, including music generation, lyrics, instrumentals, polling, and webhooks. |
 | `apidot-veo-3-1-api` | Use APIDot for Veo 3.1 API workflows, including text-to-video, image-to-video, polling, and webhooks. |
 | `apidot-seedance-2-api` | Use APIDot for Seedance 2 API workflows, including text-to-video, image-to-video, native audio, polling, and webhooks. |
 | `apidot-gpt-image-2-api` | Use APIDot for GPT Image 2 API workflows, including image generation, image editing, polling, and webhooks. |
 | `apidot-nano-banana-pro-api` | Use APIDot for Nano Banana Pro API workflows, including image generation, image editing, polling, and webhooks. |
+| `apidot-seedream-4-api` | Use APIDot for Seedream 4 API workflows, including image generation, image editing, polling, and webhooks. |
 | `apidot-seedream-4-5-api` | Use APIDot for Seedream 4.5 API workflows, including image generation, image editing, polling, and webhooks. |
 | `apidot-sora-2-official-api` | Use APIDot for Sora 2 Official API workflows, including prompt-to-video, image-guided video, polling, and webhooks. |
 | `apidot-happy-horse-api` | Use APIDot for Happy Horse API workflows, including text-to-video, image-to-video, video editing, polling, and webhooks. |
@@ -40,6 +42,7 @@ APIDot gives developers one API key for image generation, video generation, chat
 | `apidot-veo-3-1-official-api` | Use APIDot for Veo 3.1 Official API workflows, including text-to-video, image guidance, first/last-frame control, native audio, polling, and webhooks. |
 | `apidot-seedance-1-5-pro-api` | Use APIDot for Seedance 1.5 Pro API workflows, including text-to-video, image-to-video, synchronized audio, frame control, polling, and webhooks. |
 | `apidot-kling-o3-api` | Use APIDot for Kling O3 API workflows, including text-to-video, image-to-video, reference-guided video, multi-shot video, Native Audio, polling, and webhooks. |
+| `apidot-kling-o1-image-api` | Use APIDot for Kling O1 Image API workflows, including image editing, reference-guided image changes, polling, and webhooks. |
 | `apidot-kling-o3-image-api` | Use APIDot for Kling O3 Image API workflows, including text-to-image, image editing, element control, polling, and webhooks. |
 | `apidot-hailuo-02-api` | Use APIDot for Hailuo 02 API workflows, including text-to-video, image-to-video, first/last-frame guidance, polling, and webhooks. |
 | `apidot-z-image-api` | Use APIDot for Z-Image API workflows, including text-to-image, prompt planning, aspect ratio planning, polling, and webhooks. |
@@ -64,6 +67,8 @@ https://clawhub.ai/jiehao71727/apidot-3d-generation-api
 
 https://clawhub.ai/jiehao71727/apidot-music-generation-api
 
+https://clawhub.ai/jiehao71727/apidot-minimax-music-2-6-api
+
 https://clawhub.ai/jiehao71727/apidot-veo-3-1-api
 
 https://clawhub.ai/jiehao71727/apidot-seedance-2-api
@@ -71,6 +76,8 @@ https://clawhub.ai/jiehao71727/apidot-seedance-2-api
 https://clawhub.ai/jiehao71727/apidot-gpt-image-2-api
 
 https://clawhub.ai/jiehao71727/apidot-nano-banana-pro-api
+
+https://clawhub.ai/jiehao71727/apidot-seedream-4-api
 
 https://clawhub.ai/jiehao71727/apidot-seedream-4-5-api
 
@@ -116,6 +123,8 @@ https://clawhub.ai/jiehao71727/apidot-seedance-1-5-pro-api
 
 https://clawhub.ai/jiehao71727/apidot-kling-o3-api
 
+https://clawhub.ai/jiehao71727/apidot-kling-o1-image-api
+
 https://clawhub.ai/jiehao71727/apidot-kling-o3-image-api
 
 https://clawhub.ai/jiehao71727/apidot-hailuo-02-api
@@ -137,10 +146,12 @@ clawhub install apidot-image-generation-api
 clawhub install apidot-async-workflow
 clawhub install apidot-3d-generation-api
 clawhub install apidot-music-generation-api
+clawhub install apidot-minimax-music-2-6-api
 clawhub install apidot-veo-3-1-api
 clawhub install apidot-seedance-2-api
 clawhub install apidot-gpt-image-2-api
 clawhub install apidot-nano-banana-pro-api
+clawhub install apidot-seedream-4-api
 clawhub install apidot-seedream-4-5-api
 clawhub install apidot-sora-2-official-api
 clawhub install apidot-happy-horse-api
@@ -163,6 +174,7 @@ clawhub install apidot-wan-2-6-api
 clawhub install apidot-veo-3-1-official-api
 clawhub install apidot-seedance-1-5-pro-api
 clawhub install apidot-kling-o3-api
+clawhub install apidot-kling-o1-image-api
 clawhub install apidot-kling-o3-image-api
 clawhub install apidot-hailuo-02-api
 clawhub install apidot-z-image-api
