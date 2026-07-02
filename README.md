@@ -9,11 +9,14 @@ APIDot gives developers one API key for image generation, video generation, chat
 | Skill | Purpose |
 | --- | --- |
 | `apidot-ai-api` | Use APIDot as one AI API for image, video, chat, music, and 3D generation workflows. |
+| `apidot-model-catalog-api` | Use APIDot model catalog guidance to choose live model pages and route to the right APIDot skill. |
+| `apidot-chat-api` | Use APIDot for chat API workflows, including coding assistants, reasoning models, streaming planning, and server-side key safety. |
 | `apidot-video-generation-api` | Use APIDot for video generation API workflows, including text-to-video, image-to-video, polling, and webhooks. |
 | `apidot-image-generation-api` | Use APIDot for image generation and image editing API workflows, including text-to-image, image-to-image, polling, and webhooks. |
 | `apidot-async-workflow` | Use APIDot async task workflow guidance for task submission, task status, polling, callback URLs, and webhooks. |
 | `apidot-3d-generation-api` | Use APIDot for 3D generation API workflows, including text-to-3D, image-to-3D, polling, and webhooks. |
 | `apidot-music-generation-api` | Use APIDot for music generation API workflows, including text-to-music, song generation, polling, and webhooks. |
+| `apidot-generate-music-api` | Use APIDot for Generate Music API workflows, including prompt-to-song generation, music detail polling, callbacks, and webhooks. |
 | `apidot-minimax-music-2-6-api` | Use APIDot for MiniMax Music 2.6 API workflows, including music generation, lyrics, instrumentals, polling, and webhooks. |
 | `apidot-veo-3-1-api` | Use APIDot for Veo 3.1 API workflows, including text-to-video, image-to-video, polling, and webhooks. |
 | `apidot-seedance-2-api` | Use APIDot for Seedance 2 API workflows, including text-to-video, image-to-video, native audio, polling, and webhooks. |
@@ -57,6 +60,10 @@ ClawHub listings:
 
 https://clawhub.ai/jiehao71727/apidot-ai-api
 
+https://clawhub.ai/jiehao71727/apidot-model-catalog-api
+
+https://clawhub.ai/jiehao71727/apidot-chat-api
+
 https://clawhub.ai/jiehao71727/apidot-video-generation-api
 
 https://clawhub.ai/jiehao71727/apidot-image-generation-api
@@ -66,6 +73,8 @@ https://clawhub.ai/jiehao71727/apidot-async-workflow
 https://clawhub.ai/jiehao71727/apidot-3d-generation-api
 
 https://clawhub.ai/jiehao71727/apidot-music-generation-api
+
+https://clawhub.ai/jiehao71727/apidot-generate-music-api
 
 https://clawhub.ai/jiehao71727/apidot-minimax-music-2-6-api
 
@@ -141,11 +150,14 @@ https://clawhub.ai/jiehao71727/apidot-wan-2-2-fast-api
 
 ```text
 clawhub install apidot-ai-api
+clawhub install apidot-model-catalog-api
+clawhub install apidot-chat-api
 clawhub install apidot-video-generation-api
 clawhub install apidot-image-generation-api
 clawhub install apidot-async-workflow
 clawhub install apidot-3d-generation-api
 clawhub install apidot-music-generation-api
+clawhub install apidot-generate-music-api
 clawhub install apidot-minimax-music-2-6-api
 clawhub install apidot-veo-3-1-api
 clawhub install apidot-seedance-2-api
